@@ -1,0 +1,21 @@
+{
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "Backend for My Tinder-Clone.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "AAKASH_IS_BEST",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
