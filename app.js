@@ -37,6 +37,8 @@ app.post("/tinder/person", async( request, response )=>{
 });
 
 app.get("/tinder/persons", ( request, response )=>{
+    response.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+    
     TinderPerson.find(( error, persons )=>{
         if( error ){
             response.status(500).send( error );
